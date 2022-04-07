@@ -1,0 +1,671 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+10pt, % Main document font size
+a4paper, % Paper type, use 'letterpaper' for US Letter paper
+oneside, % One page layout (no page indentation)
+%twoside, % Two page layout (page indentation for binding and different headers)
+headinclude,footinclude, % Extra spacing for the header and footer
+BCOR5mm, % Binding correction
+]{scrartcl}
+
+\input{structure.tex} % Include the structure.tex file which specified the document structure and layout
+
+\hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHOR(S)
+%----------------------------------------------------------------------------------------
+
+\title{\normalfont\spacedallcaps{ECON 281 Notes}}
+
+%\subtitle{Subtitle} % Uncomment to display a subtitle
+
+\author{\spacedlowsmallcaps{Connor H. McLaughlan}}
+
+\date{} % An optional date to appear under the author(s)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\sectionmark}[1]{\markright{\spacedlowsmallcaps{#1}}} % The header for all pages (oneside) or for even pages (twoside)
+%\renewcommand{\subsectionmark}[1]{\markright{\thesubsection~#1}} % Uncomment when using the twoside option - this modifies the header on odd pages
+\lehead{\mbox{\llap{\small\thepage\kern1em\color{halfgray} \vline}\color{halfgray}\hspace{0.5em}\rightmark\hfil}} % The header style
+
+\pagestyle{scrheadings} % Enable the headers specified in this block
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS & LISTS OF FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+
+\maketitle % Print the title/author/date block
+
+\setcounter{tocdepth}{2} % Set the depth of the table of contents to show sections and subsections only
+
+\tableofcontents % Print the table of contents
+
+\listoffigures % Print the list of figures
+
+\listoftables % Print the list of tables
+
+%--------------------------------------------------
+%	ABSTRACT
+%--------------------------------------------------
+
+\section*{Abstract} % This section will not appear in the table of contents due to the star (\section*)
+
+%--------------------------------------------------
+%	AUTHOR AFFILIATIONS
+%--------------------------------------------------
+
+\let\thefootnote\relax\footnotetext{* \textit{BSc. Computer Science, University of Alberta}}
+
+%--------------------------------------------------
+
+\newpage % Start the article content on the second page, remove this if you have a longer abstract that goes onto the second page
+
+%--------------------------------------------------
+%	INTRODUCTION
+%--------------------------------------------------
+
+\section*{Introduction}
+
+Notes for ECON 281, intermediate microeconomics.
+
+\newpage
+%--------------------------------------------------
+%	Chapter 1
+%--------------------------------------------------
+\section{Chapter}
+
+TODO
+
+
+\newpage
+%--------------------------------------------------
+%	Chapter 2
+%--------------------------------------------------
+\section{Chapter}
+
+TODO
+
+
+\newpage
+%--------------------------------------------------
+%	Chapter 3
+%--------------------------------------------------
+\section{Chapter}
+
+TODO
+
+
+
+%--------------------------------------------------
+%	Chapter 4: Optimal Choice
+%--------------------------------------------------
+\section{Consumer Choice}
+
+\subsection{The Budget Constraint}
+
+\newtheorem*{bconstraint}{Budget Constraint}
+\begin{bconstraint}
+    defines the set of baskets that a consumer can purchase with a
+    limited amount of income. Expressed as
+
+    \[P_xx + P_yy \le I\]
+\end{bconstraint}
+
+\newtheorem*{bline}{Budget Line}
+\begin{bline}
+    indicates all the combinations of one good $x$ and another $y$ that a
+    particular consumer can purchase if he spends all his income on the 
+    two goods. Expressed as 
+
+    \[P_xx + P_yy = I\]
+\end{bline}
+
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.75\columnwidth]{budgetLine} 
+\caption[Budget Line]{Budget line.}
+\label{fig:budgetLine} 
+\end{figure}
+
+Figure ~\ref{fig:budgetLine} shows the graph of a budget line in units
+of a particular good, and how the 
+most optimal choice is where all income is spent (result is on the line).
+If all money is spent on movies, 8 units can be afforded. This is found 
+by $\frac{I}{P_y} = 8$.
+
+The slope of the budget line shows how many units of one good
+have to be given up to get another good.
+
+\[\frac{\Delta y}{ \Delta x} = \frac{-P_x}{ P_y}\]
+
+\par
+
+An increase in income does not affect the slope because all goods can 
+be purchased in excess of the amount that was afforded by the 
+previous income.\par
+
+A change in price does affect the slope.\par
+
+%=====================================
+\subsection{Optimal Choice}
+
+\newtheorem*{oChoice}{Optimal Choice}
+\begin{oChoice}
+    Consumer choice of a basket of goods that (1) maximizes 
+    satisfaction (utility) while (2) allowing him to live within his 
+    budget constraint.
+\end{oChoice}
+
+\newtheorem*{intOptimum}{Interior Optimum}
+\begin{intOptimum}
+    An optimal basket at which a consumer will be purchasing positive
+    amounts of all commodities.
+\end{intOptimum}
+
+\newtheorem*{expMin}{Expenditure Minimization Problem}
+\begin{expMin}
+    Consumer choice between goods that will minimize 
+    total spending while achieving a given level of utility.
+\end{expMin}
+
+To keep things simple, time is not a factor of the budget line.\par
+
+Let $U(x,y)$ represent the \textif{consumer's utility from purchasing $x$ units of good one, and $y$ units of good two.} \par
+
+Let max $U(x,Y)$ represent the values $(x,y)$ that give the maximum 
+utility. \par
+
+
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.75\columnwidth]{indCurve} 
+\caption[Indifference Curve]{Indifference Map}
+\label{fig:indifferenceCurve} 
+\end{figure}
+
+
+Figure ~\ref{fig:indifferenceCurve} shows the graph of 
+indifference curves, where the further out a curve is, the 
+higher the utility.\par
+
+At the optimal basket A the budget line is tangent to an 
+indifference curve. This is the curve with the highest attainable 
+utility. Any other basket would be unobtainable because it would 
+be higher than the income of the buyer.\par
+
+A slight movement along the budget line results in a change 
+in the utility. This is because the indifference curves 
+slope inwards towards the origin.\par
+
+The slope of the indifference curve is 
+
+\[\frac{-MU_x}{MU_y} = -MRS_(x,y)\]
+
+where MU is the marginal utility, and MRS is the marginal rate 
+of substitution. This equation can be rewritten as 
+
+\[\frac{-MU_x}{P_x} = -MRS_(MU_y,P_y)\]
+
+which shows that an interior optimum is found when any surplus dollar spent on one good gives the same utility if it were spent on the other good.\par
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.75\columnwidth]{expMin} 
+\caption[Expenditure Minimization]{Expenditure Minimization}
+\label{fig:expMin} 
+\end{figure}
+
+In figure ~\ref{fig:indifferenceCurve} we are given an 
+indifference map comprised of utility functions 
+given by $U(x,y) = xy$. As learned in the previous chapter, 
+$MU_x = y$, and $MU_y = x$. Point $B$ in the graph would have
+$MU_x = B_2$ and $MU_y = A_2$. It is clear that this is not equal to 
+the slope of the indifference curve, therefore basket $B$ is not 
+optimal.\par
+
+ 
+%=====================================
+\subsection{Consumer Choice with Composite Goods}
+
+\newtheorem*{compGood}{Composite Good}
+\begin{compGood}
+    A good that represents the collective expenditures on every 
+    other good except the commodity being considered.
+\end{compGood}
+
+It is often useful to plot a specific good on the horizontal axis, 
+and every other good in the market on the vertical axis. 
+The good on the vertical axis is called a composite good because it is 
+made up of many goods. By convention, the price of a composite good is 
+$P_y = 1$. The total expenditure on the compisite good is therefore 
+$P_yy = y$.
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.75\columnwidth]{compGood} 
+\caption[Composite Good]{composite good}
+\label{fig:compGood} 
+\end{figure}
+
+\[P_y = 1\]
+\[\frac{-P_h}{P_y} = -P_h\]
+
+
+
+%=====================================
+\subsection{Revealed Preference}
+
+TODO
+
+
+\newpage
+%--------------------------------------------------
+%	Chapter 5
+%--------------------------------------------------
+\section{The Theory of Demand}
+
+
+%=====================================
+\subsection{Optimal Choice and Demand}
+
+\newtheorem*{pcc}{Price Consumption Curve}
+\begin{pcc}
+    The set of utility-maximizing baskets as the price of one good 
+    varies (holding constant the prices of other goods and income.
+\end{pcc}
+
+\newtheorem*{icc}{Income Consumption Curve}
+\begin{icc}
+    The set of utility-maximizing baskets as income varies (and prices
+    are held constant
+\end{icc}
+
+\newtheorem*{engel}{Engel curve}
+\begin{engel}
+    A curve that relates the amount of a commodity purchased to income,
+    holding constant the prices of all goods.
+\end{engel}
+
+\newtheorem*{normalGood}{Normal Good}
+\begin{normalGood}
+    A good that a consumer purchases more of as income increases. 
+    Elasticity is positive.
+\end{normalGood}
+
+\newtheorem*{infGood}{Inferior Good}
+\begin{infGood}
+    A good that consumers purchase less of as income increases. 
+    Elasticity is negative.
+\end{infGood}
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.75\columnwidth]{pcc} 
+\caption[Price Consumption Curve]{Price Consumption Curve}
+\label{fig:pcc} 
+\end{figure}
+
+In figure ~\ref{fig:pcc} notice that as the price of biscuits falls, 
+more biscuits can be purchased, resulting in a higher utility.
+
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.75\columnwidth]{icc} 
+\caption[icc]{Income Consumption Curve}
+\label{fig:icc} 
+\end{figure}
+
+In figure ~\ref{fig:icc} it can be seen how as an individual's income
+changes, the budget line is redrawn (with the same slope) in the 
+direction of the shift in income.\par
+
+Another way to show how an individual's choice of a particular good 
+changes with income is to draw an Engel curve, a graph relating the 
+amount of food consumed to the level of income. Food is shown 
+(in units consumed) on the x-axis, income on the y-axis.
+
+
+%=====================================
+\subsection{Change in the Price of a Good: Substitution Effect and Income Effect}
+
+\newtheorem*{subEff}{Substitution Effect}
+\begin{subEff}
+    The change in the amount of a good that would be consumed 
+    as the price of that good changes, holding constant all 
+    other prices and the level of utility
+\end{subEff}
+
+\newtheorem*{incEff}{Income Effect}
+\begin{incEff}
+    The change in the amount of a good that a consumer would buy 
+    as purchasing power changes, holding all prices donstant.
+\end{incEff}
+
+\newtheorem*{griffenGood}{Griffen good}
+\begin{griffenGood}
+    A good so strongly inferior that the income effect outweighs 
+    the substitution effect, resulting in an upward-sloping 
+    demand curve over some region of prices.
+\end{griffenGood}
+
+
+%=====================================
+\subsection{Change in the Price of a Good: The Concept of Consumer Surplus}
+
+\newtheorem*{consumerSur}{Consumer Surplus}
+\begin{consumerSur}
+    The difference between the maximum amount a consumer is willing 
+    to pay for a good and the amount he or she must actually 
+    pay when purchasing it.
+\end{consumerSur}
+
+\newtheorem*{compensatingVariation}{Compensating Variation}
+\begin{compensatingVariation}
+    A measure of how much money a consumer would be willing to give up
+    after a reduction in the price of a good to be just as well off
+    as before the price decrease
+\end{compensatingVariation}
+
+\newtheorem*{equivalentVariation}{Equivalent Variation}
+\begin{equivalentVariation}
+    A measure of how much additional money a consumer would need 
+    before a price reduction to be as well off as after the price 
+    decrease.
+\end{equivalentVariation}
+
+
+%=====================================
+\subsection{Market Demand}
+
+\newtheorem*{networkExternalities}{Network Externalities}
+\begin{networkExternalities}
+    A demand characteristic present when the amount of a good demanded
+    by one consumer depends on the number of other consumers who 
+    purchase the good.
+\end{networkExternalities}
+
+\newtheorem*{bandwagonEffect}{Bandwagon Effect}
+\begin{bandwagonEffect}
+    A positive network externality that refers to the increase in each
+    consumer's demand for a good as more consumer buy the good.
+\end{bandwagonEffect}
+
+\newtheorem*{snobEffect}{Bandwagon Effect}
+\begin{snobEffect}
+    A negative network externality that refers to the decrease 
+    in each consumer's demand as more consumers buy the good.
+\end{snobEffect}
+
+
+%=====================================
+\subsection{The Choice of Labor and Leisure}
+
+\subsubsection{As wages rise, leisure first decreases, then increases}
+
+Leisure refers to all nonwork activities. The consumer's utility $U$ 
+depends on the amount of leisure time and number of units of a composite 
+good he can buy. The consumer's decision can be represented on 
+the optimal choice diagram, with leisure on the x-axis, and 
+composite goods and income on the y-axis.\par
+
+
+\subsubsection{Backward-bending Supply of Labor}
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.75\columnwidth]{laborSupply} 
+\caption[laborSupply]{Labor Supply Curve}
+\label{fig:laborSupply} 
+\end{figure}
+
+Higher wages decreases the supply of labor, this is because people 
+don't need to work as much to earn enough for leisure. This results in 
+a backward bending labor supply curve.\par
+
+This induces the consumer to substitute composite goods for leisure, 
+resulting in an increase of labor supplied.\par
+
+
+%=====================================
+\subsection{Consumer Price Indices}
+
+The ideal CPI (Consumer Price Index) would be a ratio between 
+this year's expenses to last year's expenses. 
+\begin{example}
+    If this year's expenses are \$720, and last years were \$480, 
+    the ideal CPI calculation would be $\frac{\$720}{\$480} = 1.5$
+    This implies that the cost of living this year is 50\% more 
+    expensive than last year.\par
+
+    Historically the government has tracked the price of a fixed market 
+    basket of goods in order to calculate CPIs.
+
+
+\newpage
+%--------------------------------------------------
+%	Chapter 6
+%--------------------------------------------------
+\section{Inputs and Production Functions}
+
+\subsection{}
+\subsection{}
+\subsection{}
+
+\newtheorem*{prodFun}{Production Function}
+\begin{prodFun}
+    Function that shows the maximum quantity of output a firm can 
+    produce given a quantity of inputs.
+    \[Q = f(L,K)\]
+\end{prodFun}
+
+\newtheorem*{prodSet}{Production Set}
+\begin{prodSet}
+    Set of feasible combinations of inputs and outputs.
+\end{prodSet}
+
+
+\newtheorem*{techIneff}{Technically Inefficient}
+\begin{techIneff}
+    Set of points in the production set at which the firm is producing 
+    less from it's labor than it could.
+\end{techIneff}
+
+\newtheorem*{techEff}{Technically Efficient}
+\begin{techEff}
+    Set of points in the production set where the firm is producing 
+    as much output as possible given the inputs.
+\end{techEff}
+
+\newtheorem*{laborReq}{Labor Requirements Function}
+\begin{laborReq}
+    A function that indicates minimum labor required to produce a 
+    given amount of output.
+    \[L = g(Q)\]
+    For example, if $Q = \sqrt{L}$ then $L = Q^2$.
+\end{laborReq}
+
+\newtheorem*{margLab}{Increasing Marginal Returns to Labor}
+\begin{margLab}
+    Region along the total product function where output rises with 
+    additional labor at an increasing rate.
+\end{margLab}
+\newtheorem*{dimMargLab}{Diminishing Marginal Returns to Labor}
+\begin{dimMargLab}
+    Region on the curve where output increases with additional labor, 
+    but at a decreasing rate.
+\end{dimMargLab}
+
+\newtheorem*{dimTotLab}{Diminishing Total Returns to Labor}
+\begin{dimTotLab}
+    Region on the total product function where an increase in 
+    labor decreases output.
+\end{dimTotLab}
+
+\newtheorem*{apLab}{Average Product of Labor}
+\begin{apLab}
+    The average amount of output per unit of labor.
+    \[AP_L = \frac{total\ product}{quantity\ of\ labor} = \frac{Q}{L}\]
+\end{apLab}
+
+\newtheorem*{mpLab}{Average Product of Labor}
+\begin{mpLab}
+    Rate at which total output changes as quantity of labor 
+    used is changed.
+    \[MP_L = \frac{change\ in\ total\ product}{change\ in\ quantity\ of\ labor} = \frac{\Delta Q}{\Delta L}\]
+\end{mpLab}
+
+\newtheorem*{lawDimMarg}{Law of Diminishing Marginal Returns}
+\begin{lawDimMarg}
+    As the usage of one input increases, the quantities of other 
+    inputs being held fixed, a point will be reached beyond which 
+    the marginal product of the variable input will decrease.
+\end{lawDimMarg}
+
+\newtheorem*{totProdHill}{Total Product Hill}
+\begin{totProdHill}
+    A three-dimensional graph of a production function.
+\end{totProdHill}
+
+\newtheorem*{isoquant}{Isoquant}
+\begin{isoquant}
+    A curve that shows all combinations of labor (L) and capital (K) 
+    that can produce a given level of output.
+\end{isoquant}
+
+\newtheorem{uneconReg}{Uneconomic Region of Production}
+\begin{uneconReg}
+    Region of upward-sloping/backward-bending isoquants. At least one 
+    input has a negative marginal product.
+\end{uneconReg}
+
+\newtheorem{econReg}{Economic Region of Production}
+\begin{econReg}
+    The region where the isoquants are downward sloping.
+\end{econReg}
+
+\newtheorem*{margTechSub}{Marginal Rate of Technical Substitution of Labor for Capital}
+\begin{margTechSub}
+    Rate at which the quantity of capital can be reduced for every 
+    one-unit increase in the quantity of labor, holding output constant.
+    $MRTS_(L,K)$ is a measure of the slope of an isoquant.
+\end{margTechSub}
+
+\newtheorem*{dimMagTech}{Diminishing Marginal Rate of Technical Substitution}
+\begin{dimMagTech}
+    The marginal rate of technical substitution of labor for capital 
+    diminishes as the quantity of labor increases along an isoquant 
+    (feature of a production function).
+    \[\Delta Q = change\ in\ output\]
+    \[change\ in\ output\ from\ change\ in\ quantity\ of\ capital = (\Delta K)(MP_K)\]
+    \[change\ in\ output\ from\ change\ in\ quantity\ of\ labor = (\Delta L)(MP_L)\]
+    \[\Delta Q = change\ in\ output\ from\ change\ in\ quantity\ of\ capital\]\[+ change\ in\ output\ from\ change\ in\ quantity\ of\ labor\]
+    \[\frac{-\Delta K}{\Delta L} = \frac{MP_L}{MP_K}\]
+    This shows that the marginal rate of technical substitution of labor for capital
+    ($MRTS_{L,K}$)is equal to the ratio of the marginal product of labor ($MP_L$) to 
+    the marginal product of capital ($MP_K$).
+\end{dimMagTech}
+
+
+%----------------------
+\subsection{Substitutability Amog Inputs}
+
+Will cover the ease or difficulty with which a firm can substitute between 
+different inputs of production. \par
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.95\columnwidth]{inputOpportunities} 
+\caption[]{Input Substitution Opportunities}
+\label{fig:inputOpportunities} 
+\end{figure}
+
+These two production functions (Figure ~\ref{fig:inputOpportunities}/6.11) differ in the ease with which the firms 
+can substitute labor ($L$) and capital ($K$).\par
+
+The first curve (a) has limited opportunity for substitution because any increase in 
+one input would yield a small deacrease in the other.\par
+
+In contrast, the second curve (b) has a more linear slope, which results in a 
+far greater rate of substitution.\par
+
+A right movement along the curve (a) results in $MRTS_{L,K}$ becoming almost zero 
+(slope is almost zero), while a left movement along the curve results in the 
+$MRTS_{L,K}$ becoming infinite (negative of the slope is very steep).\par
+
+\textbf{This suggests the ease or difficulty with which a firm may substitute inputs is 
+directly related to the derivative (slope) of the isoquant.}\par
+
+$MRTS_{L,K}$ changes \textbf{substantially} along the isoquant if the production
+function offers limited input substitution opportunitites.\par
+
+$MRTS_{L,K}$ changes \textbf{gradually} along the isoquant if the production
+function offers substantial input substitution opportunities.\par
+
+\newtheorem*{elastSub}{elasticity of substitution}
+\begin{elastSub}
+    Measure of how easily a firm may substitute labor for capital.
+    {\bf Often represented by \sigma .}
+\end{elastSub}
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.95\columnwidth]{elastSub} 
+\caption[]{Elasticity of Substitution of Labor for Capital}
+\label{fig:elastSub} 
+\end{figure}
+
+Figure ~\ref{fig:elastSub}: Elasticity of substitution describes the firm's input substitution opportunities. 
+It describes how quickly the $MRTS_{L,K}$ (marginal rate technical substitution) 
+changes along the isoquant curve (derivative of $MRTS_{L,K}$).\par
+
+As labor is substituted for capital, the ratio of the {\bf quantity of capital} to the 
+{\bf quantity of labor}, $K/L$, must fall. This ratio is known as the 
+{\bf capital-labor ratio}. 
+
+
+\newpage
+%--------------------------------------------------
+%	Chapter 7
+%--------------------------------------------------
+\section{Chapter}
+
+7
+
+
+\newpage
+%--------------------------------------------------
+%	Chapter 8
+%--------------------------------------------------
+\section{Chapter}
+
+8
+
+
+\newpage
+%--------------------------------------------------
+%	Chapter 9
+%--------------------------------------------------
+\section{Chapter}
+
+9
+
+
+
+
+
+
+\end{document}
