@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}{Chapter}}{4}{section.1}%
+\contentsline {section}{\numberline {2}{Chapter}}{5}{section.2}%
+\contentsline {section}{\numberline {3}{Chapter}}{6}{section.3}%
+\contentsline {section}{\numberline {4}{Consumer Choice}}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}{The Budget Constraint}}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}{Optimal Choice}}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}{Consumer Choice with Composite Goods}}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}{Revealed Preference}}{8}{subsection.4.4}%
+\contentsline {section}{\numberline {5}{The Theory of Demand}}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}{Optimal Choice and Demand}}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}{Change in the Price of a Good: Substitution Effect and Income Effect}}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}{Change in the Price of a Good: The Concept of Consumer Surplus}}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}{Market Demand}}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}{The Choice of Labor and Leisure}}{10}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}{As wages rise, leisure first decreases, then increases}}{10}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}{Backward-bending Supply of Labor}}{11}{subsubsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.6}{Consumer Price Indices}}{11}{subsection.5.6}%
+\contentsline {section}{\numberline {6}{Inputs and Production Functions}}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}{}}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}{}}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}{}}{12}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}{Substitutability Amog Inputs}}{13}{subsection.6.4}%
+\contentsline {section}{\numberline {7}{Chapter}}{16}{section.7}%
+\contentsline {section}{\numberline {8}{Chapter}}{17}{section.8}%
+\contentsline {section}{\numberline {9}{Chapter}}{18}{section.9}%
+\contentsline {section}{\numberline {10}{Chapter}}{19}{section.10}%
+\contentsline {section}{\numberline {11}{Chapter}}{20}{section.11}%
+\contentsline {section}{\numberline {12}{Chapter}}{21}{section.12}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
