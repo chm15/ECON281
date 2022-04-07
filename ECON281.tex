@@ -615,10 +615,17 @@ function offers limited input substitution opportunitites.\par
 $MRTS_{L,K}$ changes \textbf{gradually} along the isoquant if the production
 function offers substantial input substitution opportunities.\par
 
+
+%-----------------------------------------------------
+\subsubsection{Elasticity of Substitution}
+
 \newtheorem*{elastSub}{elasticity of substitution}
 \begin{elastSub}
     Measure of how easily a firm may substitute labor for capital.
     {\bf Often represented by \sigma .}
+    Typically any value greater than, or equal to, zero.
+    If \sigma is close to zero, opportunity to substitute inputs is low.
+    If \sigma is high
 \end{elastSub}
 
 \begin{figure}[tb]
@@ -682,9 +689,59 @@ the elasticity of substitution over this interval is 1 ($-75\%/-75\% = 1$).
     First, note that
     \[MRTS_{L,K} = \frac{MP_L}{MP_K}\]
     This implies
-    \[MRTS_{L,K} = \frac{\frac{1}{2} \sqrt{\frac{K}{L}} }{ \frac{1}{2} \sqrt{\frac{L}{K}}}\]
+    
+    \begin{equation*}
+        \begin{aligned}
+            MRTS_{L,K} &= \frac{\frac{1}{2} \sqrt{\frac{K}{L}} }{ \frac{1}{2} \sqrt{\frac{L}{K}}}\\
+                       &= \frac{K}{L}\\
+        \end{aligned}
+    \end{equation*}
+
+    Since $MRTS_{L,K} = \frac{K}{L}$, it follows that $\%MRTS_{L,K}$ will be exactly equal to $\%\Delta \frac{K}{L}$.
+    \par
+
+    In other words, since the marginal rate of substitution of labor for capital equals the capital-labor ratio, the percent change of both is also equal.
+    \par
+
+    Using the definition of the elasticity of substitution,
+    \begin{equation*}
+        \begin{aligned}
+            \sigma &= \frac{\% \Delta (\frac{K}{L})}{\% \Delta (MRTS_{L,K})}\\
+                   &= \frac{\% \Delta (\frac{K}{L})}{\% \Delta (\frac{K}{L})}\\
+                   &= 1
+        \end{aligned}
+    \end{equation*}
 \end{tcolorbox}
 
+
+\begin{itemize}
+    \item Typically any value greater than, or equal to, zero.
+
+    \item If $\sigma$ (elasticity of substitution) is close to zero, opportunity to substitute inputs is low.
+
+    \item If $\sigma$ is large, there is substantial opportunity to substitute inputs. 
+        This corresponds to the fact that if $\sigma$ is large, $\%\Delta MRTS_{L,K}$ (percent change $MRTS_{L,K}$) is small.
+\end{itemize}
+
+
+%-----------------------------------------------------
+\subsubsection{Special Production Functions}
+
+The relationship between 
+\begin{enumerate}
+    \item curvature of isoquants
+    \item input stability
+    \item the elasticity of substitution
+\end{enumerate}
+is most apparent when contrasting a number of special production functions.
+\par
+
+Four frequently used special production functions will be compared:
+\begin{enumerate}
+    \item linear production function
+    \item fixed-proportions production function
+    \item Cobb-Douglas production function
+    \item constant elasticity of substitution production function
 
 
 \newpage
