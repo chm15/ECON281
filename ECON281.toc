@@ -26,10 +26,18 @@
 \contentsline {paragraph}{{Fixed-Proportions Production Function (Perfect Complements)}}{18}{paragraph*.12}%
 \contentsline {paragraph}{{Cobb-Douglas Production Function}}{18}{paragraph*.14}%
 \contentsline {paragraph}{{Constant Elasticity of Substitution Production Function (CES)}}{19}{paragraph*.16}%
-\contentsline {section}{\numberline {7}{Chapter}}{21}{section.7}%
-\contentsline {section}{\numberline {8}{Chapter}}{22}{section.8}%
-\contentsline {section}{\numberline {9}{Chapter}}{23}{section.9}%
-\contentsline {section}{\numberline {10}{Chapter}}{24}{section.10}%
-\contentsline {section}{\numberline {11}{Chapter}}{25}{section.11}%
-\contentsline {section}{\numberline {12}{Chapter}}{26}{section.12}%
+\contentsline {subsection}{\numberline {6.5}{Returns to Scale}}{20}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}{Returns to Scale versus Diminishing Marginal Returns}}{20}{subsection.6.6}%
+\contentsline {section}{\numberline {7}{Costs and Cost Minimization}}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}{Cost Concepts for Decision Making}}{21}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}{The Cost-Minimization Problem}}{22}{subsection.7.2}%
+\contentsline {paragraph}{{Long-Run Cost-Minimization Problem}}{22}{paragraph*.19}%
+\contentsline {paragraph}{{Isocost Lines}}{23}{paragraph*.20}%
+\contentsline {subsection}{\numberline {7.3}{Comparative Statics Analysis of the Cost-Minimization Problem}}{24}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}{Short-Run Cost Minimization}}{24}{subsection.7.4}%
+\contentsline {section}{\numberline {8}{Chapter}}{25}{section.8}%
+\contentsline {section}{\numberline {9}{Chapter}}{26}{section.9}%
+\contentsline {section}{\numberline {10}{Chapter}}{27}{section.10}%
+\contentsline {section}{\numberline {11}{Chapter}}{28}{section.11}%
+\contentsline {section}{\numberline {12}{Chapter}}{29}{section.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

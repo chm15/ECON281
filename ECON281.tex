@@ -792,7 +792,7 @@ Linear production functions are said to have \textbf{perfect substitutes}.
 
 A production function in which the inputs must be combined in fixed proportions.
 The inputs for this production function are called \textbf{perfect complements}.
-\par
+\pae
 
 \textbf{Example:} Hydrogen and oxygen are perfect complements because adding more hydrogen to the same amount of oxygen does not result in more $H_2O$. Thus, the production function becomes
 \[Q = \min (\frac{H}{2}, O )\]
@@ -850,14 +850,183 @@ As $\sigma$ varies between $0$ and $\infty$, the shape of the isoquants go in or
 \end{center}
 
 
+%-------------------------------
+\subsection{Returns to Scale}
+
+When a firm scales it's inputs, it's outputs must also scale.
+\par
+
+\newtheorem*{returnScale}{returns to scale}
+\begin{returnScale}
+    The concept that output of a firm will increase by a certain percentage when the input increases by a percentage.
+\end{returnScale}
+
+Returns to scale is defined as:
+\[Returns\ to\ scale = \frac{\%\Delta (quantity\ of\ output)}{\%\Delta (quantity\ of\ input)}\]
+\par
+
+A particular firm uses labor $L$ and capital $K$ to produce output $Q$.
+Suppose \textbf{all inputs are scaled by the same proportionate amount $\lambda$}, where $\lambda > 1$. If 
+\[L \longrightarrow \lambda L\]
+then
+\[K \longrightarrow \lambda K\]
+Let $\phi$ represent the proportionate increase in the quantity of output $Q$.
+
+\begin{itemize}
+    \item If $\phi > \lambda$, it is \textbf{increasing returns to scale.} Some increase in input will result in a disproportionate increase in output.
+
+    \item If $\phi = \lambda$, it is \textbf{constant returns to scale.} Some increase in input will result in an equal increase in output.
+
+    \item If $\phi < \lambda$, it is \textbf{decreasing returns to scale.} Some increase in input will result in a smalle increase in output.
+\end{itemize}
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.95\columnwidth]{returnToScale} 
+\caption[]{Increasing, Constant, and Decreasing Returns to Scale}
+\label{fig:returnToScale}
+\end{figure}
+
+
+%-----------------------------
+\subsection{Returns to Scale versus Diminishing Marginal Returns}
+\textbf{Returns to scale} pertains to the impact of an increase in \textbf{all inputs at once} (full derivative), while \textbf{marginal returns} (marginal product $MP$) pertains to the impact of \textbf{increasing a single input} (partial derivative).
+
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.95\columnwidth]{marginalReturns} 
+\caption[]{Marginal Returns versus Returns to Scale}
+\label{fig:marginalReturns}
+\end{figure}
+
+In figure ~\ref{fig:marginalReturns} it can be seen that if a single input is doubled, the marginal return (output) does not scale proportionally. 
+\par
+
+In contrast, doubling all inputs results in the output doubling. This is an example of the returns to scale.
+
+\newtheorem*{techProg}{technological progress}
+\begin{techProg}
+    A change in production that enables a firm to achieve more output (efficiency).
+\end{techProg}
+
+\newtheorem*{neutralTech}{neutral technological progress}
+\begin{neutralTech}
+    A firm can produce more with the same inputs, but the isoquant curve does not change, therefore the $MRTS_{L,K}$ is the same.
+\end{neutralTech}
+
+\newtheorem{laborTech}{labor-saving technological progress}
+\begin{laborTech}
+    Progress that causes $MP_K$ to increase relative to $MP_L$.
+    This shifts the isoquant inwards.
+\end{laborTech}
+
+\newtheorem{capitalTech}{capital-saving technological progress}
+\begin{capitalTech}
+    Progress that causes $MP_L$ to increase relative to $MP_K$.
+    This shifts the isoquant inwards.
+\end{capitalTech}
+
 
 \newpage
 %--------------------------------------------------
 %	Chapter 7
 %--------------------------------------------------
-\section{Chapter}
+\section{Costs and Cost Minimization}
 
-7
+Identify and apply different concepts of costs that factor into a firm's decision making, including explicit vs implicit costs, opportunity costs, economic vs accounting costs, and sunk vs nonsunk costs.
+
+
+%--------------------------------
+\subsection{Cost Concepts for Decision Making}
+
+To economists, cost is the value of sacrificed opportunities (opportunity cost).
+
+\newtheorem*{expCost}{explicit costs}
+\begin{expCost}
+    Costs that involve a direct monetary outlay (spent money).
+\end{expCost}
+
+\newtheorem*{impCost}{implicit costs}
+\begin{impCost}
+    Costs that do not involve outlays of cash (opportunity cost).
+\end{impCost}
+
+\newtheorem*{econCosts}{economic costs}
+\begin{econCosts}
+    The sum of a firm's explicit and implicit costs.
+\end{econCosts}
+
+\newtheorem*{accCosts}{accounting costs}
+\begin{accCosts}
+    The total of a firm's explicit costs that have been incurred in the past.
+\end{accCosts}
+
+\newtheorem*{sunkCosts}{sunk costs}
+\begin{sunkCosts}
+    Costs that have already been incurred, and cannot be recovered.
+\end{sunkCosts}
+
+\newtheorem*{nonsunkCosts}{nonsunk costs}
+\begin{nonsunkCosts}
+    Costs that are only incurred on a particular decision.
+\end{nonsunkCosts}
+
+If a firm were deciding on whether they should build a factory, at the moment the factory would be a \textit{nonsunk cost}. On purchase, the factory becomes a \textit{sunk cost}.
+
+
+%--------------------------
+\subsection{The Cost-Minimization Problem}
+
+\newtheorem*{costMin}{cost-minimization problem}
+\begin{costMin}
+    Problem of finding the input combination that minimizes a firm's total cost of producing a certain level of output.
+\end{costMin}
+
+In the long run a firm may vary all input levels, in contrast a firm in the short run is not able to change at least one of their inputs of production.
+\end{costMin}
+
+
+\paragraph{Long-Run Cost-Minimization Problem}
+
+The cost-minimization problem is an example of constrained optimization.
+\par
+
+The price of one unit of labor is called \textbf{wage} $w$, and the price per unit of \textbf{capital services} is $r$.
+Hiring employees is an explicit cost, whereas if the owner of a firm provides his own labor, this would be an implicit cost (because they are not paid a wage, and sacrifice their time at a job).
+The price of capital could be implicit if they were leasing out their own assets (they can't provide services to other firms), and an explicit cost if they leased capital services from another company (buying computer time for example on offsite servers).
+\par
+
+Firms must choose a quantity of capital and labor that minimize the total cost $TC$ of production for a particular output $Q$.
+\[TC = wL + rK\]
+
+
+\paragraph{Isocost Lines}
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.95\columnwidth]{isocost} 
+\caption[]{Isocost Lines}
+\label{fig:isocost}
+\end{figure}
+
+Isocost lines are used to solve the cost-minimization problem graphically.
+An isocost line represents all the combinations of $K$ and $L$ that result in the same $TC$.
+\par
+
+For example, let $w = 10$ per labor-hour, $r = 20$ per machine-hour, and $TC = \$1MM$.
+The \$1M isocost line is described by the equation
+\[1000000 = 10L + 20K\]
+\[K = \frac{1000000}{20} - \frac{10L}{20}\]
+\par
+
+The slope of an isocost line is $\frac{-w}{r}$. The K-axis intercept (vertical axis) is $\frac{TC}{r}$.
+
+
+\subsection{Comparative Statics Analysis of the Cost-Minimization Problem}
+
+
+\subsection{Short-Run Cost Minimization}
 
 
 \newpage
