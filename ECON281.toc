@@ -25,10 +25,11 @@
 \contentsline {paragraph}{{Linear Production Function (Perfect Substitutes)}}{17}{paragraph*.10}%
 \contentsline {paragraph}{{Fixed-Proportions Production Function (Perfect Complements)}}{18}{paragraph*.12}%
 \contentsline {paragraph}{{Cobb-Douglas Production Function}}{18}{paragraph*.14}%
-\contentsline {section}{\numberline {7}{Chapter}}{20}{section.7}%
-\contentsline {section}{\numberline {8}{Chapter}}{21}{section.8}%
-\contentsline {section}{\numberline {9}{Chapter}}{22}{section.9}%
-\contentsline {section}{\numberline {10}{Chapter}}{23}{section.10}%
-\contentsline {section}{\numberline {11}{Chapter}}{24}{section.11}%
-\contentsline {section}{\numberline {12}{Chapter}}{25}{section.12}%
+\contentsline {paragraph}{{Constant Elasticity of Substitution Production Function (CES)}}{19}{paragraph*.16}%
+\contentsline {section}{\numberline {7}{Chapter}}{21}{section.7}%
+\contentsline {section}{\numberline {8}{Chapter}}{22}{section.8}%
+\contentsline {section}{\numberline {9}{Chapter}}{23}{section.9}%
+\contentsline {section}{\numberline {10}{Chapter}}{24}{section.10}%
+\contentsline {section}{\numberline {11}{Chapter}}{25}{section.11}%
+\contentsline {section}{\numberline {12}{Chapter}}{26}{section.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
