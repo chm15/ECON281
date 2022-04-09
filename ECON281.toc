@@ -34,11 +34,16 @@
 \contentsline {paragraph}{{Long-Run Cost-Minimization Problem}}{22}{paragraph*.19}%
 \contentsline {paragraph}{{Isocost Lines}}{23}{paragraph*.20}%
 \contentsline {paragraph}{{Graphical Characterization of the Solution to the Long-Run Cost-Minimization Problem}}{23}{paragraph*.22}%
-\contentsline {subsection}{\numberline {7.3}{Comparative Statics Analysis of the Cost-Minimization Problem}}{23}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}{Short-Run Cost Minimization}}{23}{subsection.7.4}%
-\contentsline {section}{\numberline {8}{Chapter}}{24}{section.8}%
-\contentsline {section}{\numberline {9}{Chapter}}{25}{section.9}%
-\contentsline {section}{\numberline {10}{Chapter}}{26}{section.10}%
-\contentsline {section}{\numberline {11}{Chapter}}{27}{section.11}%
-\contentsline {section}{\numberline {12}{Chapter}}{28}{section.12}%
+\contentsline {paragraph}{{Corner Point Solutions}}{24}{paragraph*.24}%
+\contentsline {subsection}{\numberline {7.3}{Comparative Statics Analysis of the Cost-Minimization Problem}}{25}{subsection.7.3}%
+\contentsline {paragraph}{{Analysis of Changes in Input Prices (Comparative Statics)}}{25}{paragraph*.26}%
+\contentsline {paragraph}{{Analysis of Changes in Output (Comparative Statics)}}{26}{paragraph*.27}%
+\contentsline {paragraph}{{Summary of Input Demand Comparative Statics Analysis}}{26}{paragraph*.28}%
+\contentsline {paragraph}{{Price Elasticity of Demand for Inputs}}{26}{paragraph*.29}%
+\contentsline {subsection}{\numberline {7.4}{Short-Run Cost Minimization}}{26}{subsection.7.4}%
+\contentsline {section}{\numberline {8}{Chapter}}{27}{section.8}%
+\contentsline {section}{\numberline {9}{Chapter}}{28}{section.9}%
+\contentsline {section}{\numberline {10}{Chapter}}{29}{section.10}%
+\contentsline {section}{\numberline {11}{Chapter}}{30}{section.11}%
+\contentsline {section}{\numberline {12}{Chapter}}{31}{section.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

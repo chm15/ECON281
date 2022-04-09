@@ -645,12 +645,12 @@ As labor is substituted for capital, the ratio of the {\bf quantity of capital} 
 {\bf $\sigma$ measures the percent change in the capital-labor ratio for each 1\% change in $MRTS_{L,K}$ (as we move along the isoquant).}
 \par
 
-\begin{equation}
+\begin{equation*}
     \begin{aligned}
         \sigma &= \frac{\%\ change\ in\ capital\ labor\ ratio}{\%\ change\ in\ MRTS_{L,K}}\\
                &= \frac{\% \Delta \frac{K}{L}}{\% \Delta MRTS_{L,K}}\\
     \end{aligned}
-\end{equation}
+\end{equation*}
 
 Figure ~\ref{fig:elastSub} illustrates the elasticity of substitution. 
 Given the production function $f(L,K)$, as a firm moves from $f(5,20)$ to $f(10,10)$, the capital-labor ratio changes from $\frac{20}{5} = 4$ to $\frac{10}{10} = 1$ (-75\%), as does the $MRTS_{L,K}$. Thus,
@@ -1033,11 +1033,118 @@ The slope of an isocost line is $\frac{-w}{r}$. The K-axis intercept (vertical a
 \end{figure}
 
 Point a of figure ~\ref{fig:costMinInput} is the solution to the cost-min problem.
-Points not on the isoquant are inefficient. Point on the isoquant, but not 
+Points not on the isoquant are inefficient. Point on the isoquant, but not tangent to the isocost line are efficient, but not cost minimizing for a particular output level.
+\par
+
+\textbf{Cost-minimizing solution occurs when:}
+\begin{equation*}
+    \begin{aligned}
+        slope\ of\ isoquant &= slope\ of\ isocost\ line\\
+        -MRTS_{L,K} &= -\frac{w}{r}\\
+        \frac{MP_L}{MP_K} &= \frac{w}{r}\\
+    \end{aligned}
+\end{equation*}
 
 
+In figure ~\ref{fig:costMinInput}, input combination $A$ is an \textbf{interior optimum} (which requires that all inputs are $>0$).
+The previous equation could also be rewritten in ratio form:
+\[\frac{MP_L}{w} = \frac{MP_K}{r}\]
+This condition shows that at the local optimization, each additional output per dollar spent on labor services equals the additional output per dollar spent on capital services.
+Thus, when costs are minimized, we get an equal "bang for the buck" from each input.
+\par
+
+Consider point $E$.
+The slope of the isoquant is more negative than the slope of the isocost line.
+\begin{equation*}
+    \begin{aligned}
+        -\frac{MP_L}{MP_K} &< -\frac{w}{r}\\
+        \frac{MP_L}{w} &> -\frac{MP_K}{r}\\
+    \end{aligned}
+\end{equation*}
+This shows that every dollar spent on labor will save more than a dollar in capital services.
+
+
+\paragraph{Corner Point Solutions}
+
+\begin{figure}[tb]
+\centering 
+\includegraphics[width=0.95\columnwidth]{cornerPointMin} 
+\caption[]{Corner Point Solution to the Cost-Minimization Problem}
+\label{fig:cornerPointMin}
+\end{figure}
+
+These are optimal solutions in which there is no tangency between the isoquant and the isocost curve.
+This would happen in a situation where one of the two inputs is not needed at all; every dollar spent on labor yields more output than every dollar spent on capital (for example, figure ~\ref{fig:cornerPointMin}).
+\[\frac{MP_L}{w} > \frac{MP_K}{r}\]
+It would be in the firm's best interest to substitute all capital for only labor.
+\par
+
+
+%-----------------------------------------------
 \subsection{Comparative Statics Analysis of the Cost-Minimization Problem}
 
+
+\paragraph{Analysis of Changes in Input Prices (Comparative Statics)}
+
+When the price of one input ($w$ or $r$) increases (or decreases), holding everything else constant, it causes the firm to substitute one input for another.
+\par
+
+When an input increases in price, it causes the slope of the isocost to change, as well as the intercepts.
+The tangency point between the isocost line and isoquant changes as a result.
+\par
+This relationship relies on two assumptions:
+\begin{enumerate}
+    \item With a smooth isoquant that has a diminishing $MRTS_{L,K}$, and positive quantities of an input, \textbf{an increase in the price of that input will cause the quantity of that input to go down} (to the new cost-minimizing value).
+    \item When the input is initially zero-quantity, or the firm has a fixed proportions prod-func, \textbf{an increase in the price of that input will not affect the quantity of that input}.
+\end{enumerate}
+
+
+\paragraph{Analysis of Changes in Output (Comparative Statics)}
+
+\newtheorem{expPath*}{expansion path}
+\begin{expPath}
+    A line that connects the cost-minimizing input combinations as the quantity of output changes.
+\end{expPath}
+
+The cost-minimizing point on isoquants does not necessarily follow a linear path.
+As the output level changes, the cost-minimizing combinations of inputs follows along the \textbf{expansion path}.
+\par
+\begin{itemize}
+    \item If an input increases as the output increases, this input is a \textbf{normal input}.
+    \item If an input decreases as output increases, this input is an \textbf{inferior input}.
+\end{itemize}
+Both inputs can be normal, but only one of the two inputs may be inferior.
+An input may be inferior if upon expanding production a firm automates the process resulting in less input being required.
+\par
+
+
+\paragraph{Summary of Input Demand Comparative Statics Analysis}
+
+The \textbf{labor demand curve} describes how a change in the price $w$ of labor will affect the units of labor demanded. A change in the price of labor causes a \textbf{movement along the labor demand curve}. A change in output level causes a \textbf{shift in the labor demand curve}.
+\par
+
+If an input is normal, and output increases, demand for that input will increase. If the input is inferior, the demand curve for that input will shift left.
+\par
+
+The firm's \textbf{capital demand curve} is the exact same.
+
+
+\paragraph{Price Elasticity of Demand for Inputs}
+
+The sensitivity of the demand for a product to it's price (change in) is referred to as it's elasticity.
+The \textbf{price elasticity of demand for labor}, $\epsilon_{L,w}$, is the \% change in the cost-minimizing quantity of labor for a 1\% change in the price of labor ($w$).
+\begin{equation*}
+    \begin{aligned}
+        \epsilon_{L,w} &= \frac{\frac{\Delta L}{L} \times 100\%}{\frac{\Delta w}{w} \times 100\%}\\
+                       &= \frac{\Delta L}{\Delta w} \frac{w}{L}\\
+    \end{aligned}
+\end{equation*}
+The \textbf{price elasticity of demand for capital}, $\epsilon_{K,r}$ is the exact same.
+\[\epsilon_{K,w} &= \frac{\Delta L}{\Delta w} \frac{w}{L}\]
+\par
+
+A determinant of the price elasticity for inputs is the \textit{elasticity of substitution}.
+When the price elasticity of demand for labor is small, the demand for labor is relatively insensitive to the price of labor.
 
 
 
