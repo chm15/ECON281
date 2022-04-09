@@ -33,11 +33,12 @@
 \contentsline {subsection}{\numberline {7.2}{The Cost-Minimization Problem}}{22}{subsection.7.2}%
 \contentsline {paragraph}{{Long-Run Cost-Minimization Problem}}{22}{paragraph*.19}%
 \contentsline {paragraph}{{Isocost Lines}}{23}{paragraph*.20}%
-\contentsline {subsection}{\numberline {7.3}{Comparative Statics Analysis of the Cost-Minimization Problem}}{24}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}{Short-Run Cost Minimization}}{24}{subsection.7.4}%
-\contentsline {section}{\numberline {8}{Chapter}}{25}{section.8}%
-\contentsline {section}{\numberline {9}{Chapter}}{26}{section.9}%
-\contentsline {section}{\numberline {10}{Chapter}}{27}{section.10}%
-\contentsline {section}{\numberline {11}{Chapter}}{28}{section.11}%
-\contentsline {section}{\numberline {12}{Chapter}}{29}{section.12}%
+\contentsline {paragraph}{{Graphical Characterization of the Solution to the Long-Run Cost-Minimization Problem}}{23}{paragraph*.22}%
+\contentsline {subsection}{\numberline {7.3}{Comparative Statics Analysis of the Cost-Minimization Problem}}{23}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}{Short-Run Cost Minimization}}{23}{subsection.7.4}%
+\contentsline {section}{\numberline {8}{Chapter}}{24}{section.8}%
+\contentsline {section}{\numberline {9}{Chapter}}{25}{section.9}%
+\contentsline {section}{\numberline {10}{Chapter}}{26}{section.10}%
+\contentsline {section}{\numberline {11}{Chapter}}{27}{section.11}%
+\contentsline {section}{\numberline {12}{Chapter}}{28}{section.12}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
